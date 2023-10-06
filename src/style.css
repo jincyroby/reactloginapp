@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans");
+:root {
+  --black: #3d3d3d;
+  --lightblack: #3e3e3e;
+  --primaryfont: "Noto Sans", sans-serif;
+}
+body {
+  font-family: var(--primaryfont) !important;
+  font-size: 16px !important;
+  color: var(--lightblack);
+  background-color: #fbfbfb !important;
+}
+.logincontainer h4,
+.logincontainer h6 {
+  font-weight: 700;
+  color: var(--black);
+  line-height: 42px;
+}
+.logincontainer h4 {
+  font-size: 32px;
+}
+.logincontainer h6 {
+  line-height: 26px;
+  float: left;
+}
+.logincontainer a {
+  text-decoration: none;
+}
+.logincontainer .border-radius-none {
+  border-radius: 0px !important;
+}
+.remember-me {
+  width: 32px;
+  height: 32px;
+  border: 2px solid #000000;
+  background-color: #f2f2f2;
+}
+.ml-4 {
+  margin-left: 4px;
+}
+footer small {
+  font-size: 13px;
+}
+.country-grid {
+  border: 2px solid var(--lightblack);
+}
+.country-grid img {
+  height: 6rem;
+}
+.css-v2woy3-MuiStack-root {
+  display: inline-block !important;
+}
+.login-button {
+  border-radius: 0px !important;
+  background-color: var(--black) !important;
+  text-transform: none !important;
+}
+
+.hr-text {
+  line-height: 1em;
+  position: relative;
+  outline: 0;
+  border: 0;
+  color: var(--black);
+  text-align: center;
+  height: 1.5em;
+  opacity: 0.5;
+  &:before {
+    content: "";
+    background: var(--black);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+  }
+  &:after {
+    background: var(--black);
+    content: attr(data-content);
+    position: relative;
+    display: inline-block;
+    color: var(--black);
+    padding: 0 0.5em;
+    line-height: 1.5em;
+    background-color: #fcfcfa;
+  }
+}
+.px-12 {
+  padding-left: 12rem !important;
+}
